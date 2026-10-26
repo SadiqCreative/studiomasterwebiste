@@ -217,8 +217,11 @@ export default function ManageStudioHero({ onNavigatePricing, onNavigateAbout, o
                   rel="noopener noreferrer"
                   style={{ textDecoration: 'none' }}
                 >
-                  <span>Download</span>
                   <Download size={16} strokeWidth={2.4} />
+                  <span className="hero-download-btn-text">
+                    <span className="hero-download-label">Download for Windows</span>
+                    <span className="hero-download-meta">Manage Studio 1.5 &nbsp;&bull;&nbsp; ~124 MB</span>
+                  </span>
                 </a>
 
                 <button 
@@ -230,7 +233,7 @@ export default function ManageStudioHero({ onNavigatePricing, onNavigateAbout, o
                   <span>Watch Video</span>
                 </button>
               </div>
-              <div className="hero-subtext">Windows 10/11 &bull; 64-bit Installer</div>
+              <div className="hero-subtext">Free download &bull; Windows 10/11 &bull; 64-bit</div>
             </div>
           </div>
         </div>

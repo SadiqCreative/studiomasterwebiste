@@ -525,6 +525,27 @@
   padding-left: 8px;
 }
 
+/* Two-line download button label */
+.hero-download-btn-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.2;
+}
+
+.hero-download-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.hero-download-meta {
+  font-size: 11px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.78);
+  letter-spacing: 0.01em;
+}
+
 /* --------------------------------------------------------------------------
    3B. HERO COMPACT BENEFIT BADGES
    -------------------------------------------------------------------------- */
